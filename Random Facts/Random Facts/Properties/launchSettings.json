@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Random Facts (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Random Facts (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
