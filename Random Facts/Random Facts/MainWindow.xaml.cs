@@ -31,6 +31,10 @@ namespace Random_Facts
         private void nextFactBtn_Click(object sender, RoutedEventArgs e)
         {
             nextFactBtn.Content = "Clicked";
+            string connection;
+            SqlConnection cnn;
+
+
         }
         private void sourceBtn_Click(object sender, RoutedEventArgs e)
         {
