@@ -283,7 +283,7 @@ namespace RF2022.RF2022_XamlTypeInfo
             _typeNameTable[55] = "RF2022.Views.DocumentsDBPage";
             _typeNameTable[56] = "RF2022.ViewModels.DocumentsDBViewModel";
             _typeNameTable[57] = "RF2022.Views.RandomFactDetailControl";
-            _typeNameTable[58] = "RF2022.Core.Models.SampleOrder";
+            _typeNameTable[58] = "RF2022.Core.Models.Fact";
             _typeNameTable[59] = "RF2022.Behaviors.NavigationViewHeaderBehavior";
             _typeNameTable[60] = "Microsoft.Xaml.Interactivity.Behavior`1<Microsoft.UI.Xaml.Controls.NavigationView>";
             _typeNameTable[61] = "Microsoft.Xaml.Interactivity.Behavior";
@@ -379,7 +379,7 @@ namespace RF2022.RF2022_XamlTypeInfo
             _typeTable[55] = typeof(global::RF2022.Views.DocumentsDBPage);
             _typeTable[56] = typeof(global::RF2022.ViewModels.DocumentsDBViewModel);
             _typeTable[57] = typeof(global::RF2022.Views.RandomFactDetailControl);
-            _typeTable[58] = typeof(global::RF2022.Core.Models.SampleOrder);
+            _typeTable[58] = typeof(global::RF2022.Core.Models.Fact);
             _typeTable[59] = typeof(global::RF2022.Behaviors.NavigationViewHeaderBehavior);
             _typeTable[60] = typeof(global::Microsoft.Xaml.Interactivity.Behavior<global::Microsoft.UI.Xaml.Controls.NavigationView>);
             _typeTable[61] = typeof(global::Microsoft.Xaml.Interactivity.Behavior);
@@ -461,7 +461,7 @@ namespace RF2022.RF2022_XamlTypeInfo
         private object Activate_50_DataGridTextColumn() { return new global::CommunityToolkit.WinUI.UI.Controls.DataGridTextColumn(); }
         private object Activate_55_DocumentsDBPage() { return new global::RF2022.Views.DocumentsDBPage(); }
         private object Activate_57_RandomFactDetailControl() { return new global::RF2022.Views.RandomFactDetailControl(); }
-        private object Activate_58_SampleOrder() { return new global::RF2022.Core.Models.SampleOrder(); }
+        private object Activate_58_Fact() { return new global::RF2022.Core.Models.Fact(); }
         private object Activate_59_NavigationViewHeaderBehavior() { return new global::RF2022.Behaviors.NavigationViewHeaderBehavior(); }
         private object Activate_62_NavigationView() { return new global::Microsoft.UI.Xaml.Controls.NavigationView(); }
         private object Activate_65_ListDetailsView() { return new global::CommunityToolkit.WinUI.UI.Controls.ListDetailsView(); }
@@ -942,7 +942,7 @@ namespace RF2022.RF2022_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 58:   //  RF2022.Core.Models.SampleOrder
+            case 58:   //  RF2022.Core.Models.Fact
                 userType = new global::RF2022.RF2022_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
@@ -2173,7 +2173,7 @@ namespace RF2022.RF2022_XamlTypeInfo
         private void set_92_RandomFactDetailControl_ListDetailsMenuItem(object instance, object Value)
         {
             var that = (global::RF2022.Views.RandomFactDetailControl)instance;
-            that.ListDetailsMenuItem = (global::RF2022.Core.Models.SampleOrder)Value;
+            that.ListDetailsMenuItem = (global::RF2022.Core.Models.Fact)Value;
         }
         private object get_93_NavigationViewHeaderBehavior_DefaultHeaderTemplate(object instance)
         {
@@ -3459,7 +3459,7 @@ namespace RF2022.RF2022_XamlTypeInfo
                 break;
             case "RF2022.Views.RandomFactDetailControl.ListDetailsMenuItem":
                 userType = (global::RF2022.RF2022_XamlTypeInfo.XamlUserType)GetXamlTypeByName("RF2022.Views.RandomFactDetailControl");
-                xamlMember = new global::RF2022.RF2022_XamlTypeInfo.XamlMember(this, "ListDetailsMenuItem", "RF2022.Core.Models.SampleOrder");
+                xamlMember = new global::RF2022.RF2022_XamlTypeInfo.XamlMember(this, "ListDetailsMenuItem", "RF2022.Core.Models.Fact");
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_92_RandomFactDetailControl_ListDetailsMenuItem;
                 xamlMember.Setter = set_92_RandomFactDetailControl_ListDetailsMenuItem;

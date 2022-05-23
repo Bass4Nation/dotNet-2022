@@ -30,53 +30,53 @@
     <AppXManifest Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022 %28Package%29\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-05-23T16:46:54.889</Modified>
+      <Modified>2022-05-23T17:10:43.707</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022\bin\x86\Debug\net5.0-windows10.0.19041.0\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-05-23T15:40:18.296</Modified>
+      <Modified>2022-05-23T17:10:40.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022\bin\x86\Debug\net5.0-windows10.0.19041.0\Styles\Page.xbf">
       <PackagePath>Styles\Page.xbf</PackagePath>
-      <Modified>2022-05-23T15:40:18.295</Modified>
+      <Modified>2022-05-23T17:10:40.995</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022\bin\x86\Debug\net5.0-windows10.0.19041.0\Styles\TextBlock.xbf">
       <PackagePath>Styles\TextBlock.xbf</PackagePath>
-      <Modified>2022-05-23T15:40:18.295</Modified>
+      <Modified>2022-05-23T17:10:40.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022\bin\x86\Debug\net5.0-windows10.0.19041.0\Styles\_FontSizes.xbf">
       <PackagePath>Styles\_FontSizes.xbf</PackagePath>
-      <Modified>2022-05-23T15:40:18.295</Modified>
+      <Modified>2022-05-23T17:10:40.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022\bin\x86\Debug\net5.0-windows10.0.19041.0\Styles\_Thickness.xbf">
       <PackagePath>Styles\_Thickness.xbf</PackagePath>
-      <Modified>2022-05-23T15:40:18.296</Modified>
+      <Modified>2022-05-23T17:10:40.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022\bin\x86\Debug\net5.0-windows10.0.19041.0\Views\AllDocumentsDetailPage.xbf">
       <PackagePath>Views\AllDocumentsDetailPage.xbf</PackagePath>
-      <Modified>2022-05-23T15:40:18.296</Modified>
+      <Modified>2022-05-23T17:10:40.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022\bin\x86\Debug\net5.0-windows10.0.19041.0\Views\AllDocumentsPage.xbf">
       <PackagePath>Views\AllDocumentsPage.xbf</PackagePath>
-      <Modified>2022-05-23T15:40:18.296</Modified>
+      <Modified>2022-05-23T17:10:40.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022\bin\x86\Debug\net5.0-windows10.0.19041.0\Views\DocumentsDBPage.xbf">
       <PackagePath>Views\DocumentsDBPage.xbf</PackagePath>
-      <Modified>2022-05-23T15:40:18.297</Modified>
+      <Modified>2022-05-23T17:10:40.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022\bin\x86\Debug\net5.0-windows10.0.19041.0\Views\RandomFactDetailControl.xbf">
       <PackagePath>Views\RandomFactDetailControl.xbf</PackagePath>
-      <Modified>2022-05-23T15:40:18.290</Modified>
+      <Modified>2022-05-23T17:10:40.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022\bin\x86\Debug\net5.0-windows10.0.19041.0\Views\RandomFactPage.xbf">
       <PackagePath>Views\RandomFactPage.xbf</PackagePath>
-      <Modified>2022-05-23T15:40:18.297</Modified>
+      <Modified>2022-05-23T17:10:40.998</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022\bin\x86\Debug\net5.0-windows10.0.19041.0\Views\ShellPage.xbf">
       <PackagePath>Views\ShellPage.xbf</PackagePath>
-      <Modified>2022-05-23T15:40:18.297</Modified>
+      <Modified>2022-05-23T17:10:40.998</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\Redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -238,7 +238,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022.Core\bin\x86\Debug\netstandard2.0\RF2022.Core.dll">
       <PackagePath>RF2022\RF2022.Core.dll</PackagePath>
-      <Modified>2022-05-23T15:40:07.424</Modified>
+      <Modified>2022-05-23T17:10:29.320</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022\bin\x86\Debug\net5.0-windows10.0.19041.0\RF2022.deps.json">
       <PackagePath>RF2022\RF2022.deps.json</PackagePath>
@@ -250,51 +250,51 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022\obj\x86\Debug\net5.0-windows10.0.19041.0\App.xbf">
       <PackagePath>RF2022\App.xbf</PackagePath>
-      <Modified>2022-05-23T15:40:18.296</Modified>
+      <Modified>2022-05-23T17:10:40.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022\obj\x86\Debug\net5.0-windows10.0.19041.0\Styles\Page.xbf">
       <PackagePath>RF2022\Styles\Page.xbf</PackagePath>
-      <Modified>2022-05-23T15:40:18.295</Modified>
+      <Modified>2022-05-23T17:10:40.995</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022\obj\x86\Debug\net5.0-windows10.0.19041.0\Styles\TextBlock.xbf">
       <PackagePath>RF2022\Styles\TextBlock.xbf</PackagePath>
-      <Modified>2022-05-23T15:40:18.295</Modified>
+      <Modified>2022-05-23T17:10:40.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022\obj\x86\Debug\net5.0-windows10.0.19041.0\Styles\_FontSizes.xbf">
       <PackagePath>RF2022\Styles\_FontSizes.xbf</PackagePath>
-      <Modified>2022-05-23T15:40:18.295</Modified>
+      <Modified>2022-05-23T17:10:40.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022\obj\x86\Debug\net5.0-windows10.0.19041.0\Styles\_Thickness.xbf">
       <PackagePath>RF2022\Styles\_Thickness.xbf</PackagePath>
-      <Modified>2022-05-23T15:40:18.296</Modified>
+      <Modified>2022-05-23T17:10:40.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022\obj\x86\Debug\net5.0-windows10.0.19041.0\Views\AllDocumentsDetailPage.xbf">
       <PackagePath>RF2022\Views\AllDocumentsDetailPage.xbf</PackagePath>
-      <Modified>2022-05-23T15:40:18.296</Modified>
+      <Modified>2022-05-23T17:10:40.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022\obj\x86\Debug\net5.0-windows10.0.19041.0\Views\AllDocumentsPage.xbf">
       <PackagePath>RF2022\Views\AllDocumentsPage.xbf</PackagePath>
-      <Modified>2022-05-23T15:40:18.296</Modified>
+      <Modified>2022-05-23T17:10:40.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022\obj\x86\Debug\net5.0-windows10.0.19041.0\Views\DocumentsDBPage.xbf">
       <PackagePath>RF2022\Views\DocumentsDBPage.xbf</PackagePath>
-      <Modified>2022-05-23T15:40:18.297</Modified>
+      <Modified>2022-05-23T17:10:40.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022\obj\x86\Debug\net5.0-windows10.0.19041.0\Views\RandomFactDetailControl.xbf">
       <PackagePath>RF2022\Views\RandomFactDetailControl.xbf</PackagePath>
-      <Modified>2022-05-23T15:40:18.290</Modified>
+      <Modified>2022-05-23T17:10:40.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022\obj\x86\Debug\net5.0-windows10.0.19041.0\Views\RandomFactPage.xbf">
       <PackagePath>RF2022\Views\RandomFactPage.xbf</PackagePath>
-      <Modified>2022-05-23T15:40:18.297</Modified>
+      <Modified>2022-05-23T17:10:40.998</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022\obj\x86\Debug\net5.0-windows10.0.19041.0\Views\ShellPage.xbf">
       <PackagePath>RF2022\Views\ShellPage.xbf</PackagePath>
-      <Modified>2022-05-23T15:40:18.297</Modified>
+      <Modified>2022-05-23T17:10:40.998</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022\obj\x86\Debug\net5.0-windows10.0.19041.0\apphost.exe">
       <PackagePath>RF2022\RF2022.exe</PackagePath>
-      <Modified>2022-05-23T15:40:18.739</Modified>
+      <Modified>2022-05-23T17:10:41.554</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022\bin\x86\Debug\net5.0-windows10.0.19041.0\RF2022.runtimeconfig.json">
       <PackagePath>RF2022\RF2022.runtimeconfig.json</PackagePath>
@@ -302,7 +302,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022\bin\x86\Debug\net5.0-windows10.0.19041.0\RF2022.dll">
       <PackagePath>RF2022\RF2022.dll</PackagePath>
-      <Modified>2022-05-23T15:40:18.684</Modified>
+      <Modified>2022-05-23T17:10:41.456</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

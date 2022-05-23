@@ -59,6 +59,7 @@ namespace RF2022
             // Core Services
             services.AddSingleton<ISampleDataService, SampleDataService>();
             services.AddSingleton<IDocDataService, DocService>();
+            services.AddSingleton<IFactDataService, FactService>();
 
             // Views and ViewModels
             services.AddTransient<ShellPage>();

@@ -7,13 +7,13 @@ namespace RF2022.Views
 {
     public sealed partial class RandomFactDetailControl : UserControl
     {
-        public SampleOrder ListDetailsMenuItem
+        public Fact ListDetailsMenuItem
         {
-            get { return GetValue(ListDetailsMenuItemProperty) as SampleOrder; }
+            get { return GetValue(ListDetailsMenuItemProperty) as Fact; }
             set { SetValue(ListDetailsMenuItemProperty, value); }
         }
 
-        public static readonly DependencyProperty ListDetailsMenuItemProperty = DependencyProperty.Register("ListDetailsMenuItem", typeof(SampleOrder), typeof(RandomFactDetailControl), new PropertyMetadata(null, OnListDetailsMenuItemPropertyChanged));
+        public static readonly DependencyProperty ListDetailsMenuItemProperty = DependencyProperty.Register("ListDetailsMenuItem", typeof(Fact), typeof(RandomFactDetailControl), new PropertyMetadata(null, OnListDetailsMenuItemPropertyChanged));
 
         public RandomFactDetailControl()
         {

@@ -12,24 +12,24 @@
     behaviors:NavigationViewHeaderBehavior.HeaderMode="Never"
     Style="{StaticResource PageStyle}">
     <Page.Resources>
-        <DataTemplate x:Key="ItemTemplate"                                >
+        <DataTemplate x:Key="ItemTemplate"                         >
             <Grid x:ConnectionId='7' Height="60">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto" />
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
-                <FontIcon x:ConnectionId='8'
+                <!--<FontIcon
                     Grid.Column="0"
                     VerticalAlignment="Center"
                     FontSize="32"
-                                           
-                                                                    />
+                    Glyph="{x:Bind Symbol}"
+                    AutomationProperties.Name="{x:Bind SymbolName}" />-->
                 <StackPanel
                     Grid.Column="1"
                     Margin="{StaticResource SmallLeftMargin}"
                     VerticalAlignment="Center">
-                    <TextBlock x:ConnectionId='9'                         Style="{StaticResource ListTitleStyle}" />
-                    <TextBlock x:ConnectionId='10'                        Style="{StaticResource ListSubTitleStyle}" />
+                    <TextBlock x:ConnectionId='8'                       Style="{StaticResource ListTitleStyle}" />
+                    <TextBlock x:ConnectionId='9'                     Style="{StaticResource ListSubTitleStyle}" />
                 </StackPanel>
             </Grid>
         </DataTemplate>
@@ -70,7 +70,7 @@
         </DataTemplate>
     </Page.Resources>
 
-    <Grid x:ConnectionId='11' x:Name="ContentArea">
+    <Grid x:ConnectionId='10' x:Name="ContentArea">
         <VisualStateManager.VisualStateGroups>
             <VisualStateGroup>
                 <VisualState>
@@ -84,7 +84,7 @@
                 </VisualState>
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
-        <controls:ListDetailsView x:ConnectionId='12'
+        <controls:ListDetailsView x:ConnectionId='11'
             x:Uid="RandomFact"
             x:Name="ListDetailsViewControl"
             BackButtonBehavior="Automatic"

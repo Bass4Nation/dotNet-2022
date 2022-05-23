@@ -12,18 +12,18 @@ namespace RF2022.ViewModels
 {
     public class RandomFactViewModel : ObservableRecipient, INavigationAware
     {
-        private readonly ISampleDataService _sampleDataService;
-        private SampleOrder _selected;
+        private readonly IFactDataService _sampleDataService;
+        private Fact _selected;
 
-        public SampleOrder Selected
+        public Fact Selected
         {
             get { return _selected; }
             set { SetProperty(ref _selected, value); }
         }
 
-        public ObservableCollection<SampleOrder> SampleItems { get; private set; } = new ObservableCollection<SampleOrder>();
+        public ObservableCollection<Fact> SampleItems { get; private set; } = new ObservableCollection<Fact>();
 
-        public RandomFactViewModel(ISampleDataService sampleDataService)
+        public RandomFactViewModel(IFactDataService sampleDataService)
         {
             _sampleDataService = sampleDataService;
         }
