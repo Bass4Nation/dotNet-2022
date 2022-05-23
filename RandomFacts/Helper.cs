@@ -12,6 +12,12 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
+
+/// <summary>
+/// All CRUD REST api Reqests is based upon this
+/// https://zetcode.com/csharp/httpclient/   
+/// </summary>
+
 namespace RandomFacts
 {
     //This file is going to have the most of the CRUD methods. 

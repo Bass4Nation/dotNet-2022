@@ -15,6 +15,8 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 
+using RandomFacts.Models;
+
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
 
@@ -28,37 +30,28 @@ namespace RandomFacts
         public Documents()
         {
             this.InitializeComponent();
-            GetCountDocuments();
+            GetAllDocs();
         }
 
         private Helper helper = new Helper();
 
-        private void GetCountDocuments()
-        {
 
-
-            string cmdDoc = "select dbo.Documents.title, dbo.Documents.text from dbo.Documents";
-            //ArrayList arr = helper.GetAllDBData(cmdDoc, count);
-
-            //Debug.WriteLine(arr[0]);
-
-
-
-
-
-
-        }
-
+        /// <summary>
+        /// Get a single document from the Database
+        /// </summary>
         public void GetDoc()
         {
-            Helper helper = new Helper();
-            helper.GetDBDataAsync(2);
+
         }
 
+        /// <summary>
+        /// Get all documents in a Database
+        /// </summary>
         public void GetAllDocs()
         {
-            Helper helper = new Helper();
-            helper.GetAllDBDataAsync();
+            var docs = helper.GetAllDBDataAsync();
+
+            
         }
 
     }

@@ -24,8 +24,14 @@ namespace RandomFacts.Api.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Doc>>> GetDocItems()
         {
+
             return await _context.DocItems.ToListAsync();
         }
+
+
+
+
+
 
         // GET: api/Docs/5
         [HttpGet("{id}")]
@@ -80,7 +86,7 @@ namespace RandomFacts.Api.Controllers
             _context.DocItems.Add(doc);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetDoc", new { id = doc.Id, title = doc.Title, content = doc.Content}, doc);
+            return CreatedAtAction("GetDoc", new { id = doc.Id, title = doc.Title, content = doc.Content }, doc);
         }
 
         // DELETE: api/Docs/5

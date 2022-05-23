@@ -69,7 +69,11 @@ namespace RandomFacts
 
         private void MenuBtn_OnClick(object sender, RoutedEventArgs e)
         {
-            frontPage.NavigateToType(typeof(MenuPage),null,null);
+            
+            frontPage.Navigate(typeof(MenuPage));
+
+            foreach (var item in frontPage.BackStack.ToList())
+                frontPage.BackStack.Remove(item);
         }
 
 
