@@ -1,0 +1,49 @@
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\App.xbf
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\MainWindow.xbf
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\RandomFacts\Microsoft.ApplicationModel.Resources.Projection.dll
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\RandomFacts\Microsoft.WinUI.dll
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\RandomFacts\Microsoft.Windows.SDK.NET.dll
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\RandomFacts\WinRT.Runtime.dll
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\RandomFacts\RandomFacts.deps.json
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\RandomFacts\RandomFacts.runtimeconfig.dev.json
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\RandomFacts\App.xbf
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\RandomFacts\MainWindow.xbf
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\RandomFacts\RandomFacts.exe
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\RandomFacts\Microsoft.ApplicationModel.Resources.Projection.pdb
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\RandomFacts\RandomFacts.runtimeconfig.json
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\RandomFacts\RandomFacts.dll
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\RandomFacts\RandomFacts.pdb
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\resources.pri
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\AppxManifest.xml
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\RandomFacts (Package).build.appxrecipe
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\obj\x86\Debug\RandomFacts (Package).wapproj.AssemblyReference.cache
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\obj\x86\Debug\RandomFacts (Package).wapproj.CoreCompileInputs.cache
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\obj\x86\Debug\RandomFacts.pri.xml
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\obj\x86\Debug\priconfig.xml
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\obj\x86\Debug\unfiltered.layout.resfiles
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\obj\x86\Debug\filtered.layout.resfiles
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\obj\x86\Debug\filtered.layout.resfiles.intermediate
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\obj\x86\Debug\excluded.layout.resfiles
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\obj\x86\Debug\excluded.layout.resfiles.intermediate
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\obj\x86\Debug\resources.resfiles
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\obj\x86\Debug\pri.resfiles
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\obj\x86\Debug\qualifiers.txt
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\obj\x86\Debug\RandomFacts (Package).wapproj.LastBuild.txt
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\MenuPage.xbf
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\RandomFacts\MenuPage.xbf
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\RandomFacts\System.Data.SqlClient.dll
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\RandomFacts\runtimes\win-arm64\native\sni.dll
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\RandomFacts\runtimes\win-x64\native\sni.dll
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\RandomFacts\runtimes\win-x86\native\sni.dll
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\RandomFacts\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\RandomFacts\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\Documents.xbf
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\RandomFacts\Documents.xbf
+C:\Users\Bass4Nation\source\repos\RandomFacts (Package)\bin\x86\Debug\RandomFacts\Newtonsoft.Json.dll
