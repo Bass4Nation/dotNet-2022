@@ -343,6 +343,13 @@
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
+				<ResourceMapSubtree name="RichSuggestBox">
+					<NamedResource name="RichSuggestBox.xbf" uri="ms-resource://RF2022/Files/CommunityToolkit.WinUI.UI.Controls.Input/RichSuggestBox/RichSuggestBox.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
 				<ResourceMapSubtree name="Themes">
 					<NamedResource name="Generic.xbf" uri="ms-resource://RF2022/Files/CommunityToolkit.WinUI.UI.Controls.Input/Themes/Generic.xbf">
 						<Candidate type="EmbeddedData">

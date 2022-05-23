@@ -6,12 +6,15 @@ using Microsoft.UI.Xaml.Navigation;
 
 using RF2022.Contracts.Services;
 using RF2022.ViewModels;
+using RF2022.Helpers;
+using System.Diagnostics;
 
 namespace RF2022.Views
 {
     public sealed partial class AllDocumentsDetailPage : Page
     {
         public AllDocumentsDetailViewModel ViewModel { get; }
+        private Helper helper = new Helper();
 
         public AllDocumentsDetailPage()
         {
@@ -34,5 +37,65 @@ namespace RF2022.Views
                 navigationService.SetListDataItemForNextConnectedAnimation(ViewModel.Item);
             }
         }
+
+        private void delBtn_Click(object sender, Microsoft.UI.Xaml.RoutedEventArgs e)
+        {
+
+            int id = (int)ViewModel.Item.Id;
+            helper.DeleteDBDataAsync(id);
+        }
+
+        private void editBtn_Click(object sender, Microsoft.UI.Xaml.RoutedEventArgs e)
+        {
+            changeVisibility();
+        }
+        private void svBtn_Click(object sender, Microsoft.UI.Xaml.RoutedEventArgs e)
+        {
+            changeVisibility();
+            int id = (int)ViewModel.Item.Id;
+
+            helper.PutDBDataAsync(id, editTitle.Text, editContent.Text);
+        }
+
+
+        private void retBtn_Click(object sender, Microsoft.UI.Xaml.RoutedEventArgs e)
+        {
+            changeVisibility();
+        }
+
+        private void changeVisibility()
+        {
+            if (editTitle.Visibility.Equals(Microsoft.UI.Xaml.Visibility.Visible)){
+                editTitle.Visibility = Microsoft.UI.Xaml.Visibility.Collapsed;
+                editContent.Visibility = Microsoft.UI.Xaml.Visibility.Collapsed;
+                TitleField.Visibility = Microsoft.UI.Xaml.Visibility.Collapsed;
+                ContentField.Visibility = Microsoft.UI.Xaml.Visibility.Collapsed;
+                svBtn.Visibility = Microsoft.UI.Xaml.Visibility.Collapsed;
+                retBtn.Visibility = Microsoft.UI.Xaml.Visibility.Collapsed;
+                //------------------------------------------------------------------
+                editBtn.Visibility = Microsoft.UI.Xaml.Visibility.Visible;
+                delBtn.Visibility = Microsoft.UI.Xaml.Visibility.Visible;
+                content.Visibility = Microsoft.UI.Xaml.Visibility.Visible;
+                title.Visibility = Microsoft.UI.Xaml.Visibility.Visible;
+            }
+            else
+            {
+                //------------------------------------------------------------
+                editTitle.Visibility = Microsoft.UI.Xaml.Visibility.Visible;
+                editContent.Visibility = Microsoft.UI.Xaml.Visibility.Visible;
+                TitleField.Visibility = Microsoft.UI.Xaml.Visibility.Visible;
+                ContentField.Visibility = Microsoft.UI.Xaml.Visibility.Visible;
+                svBtn.Visibility = Microsoft.UI.Xaml.Visibility.Visible;
+                retBtn.Visibility = Microsoft.UI.Xaml.Visibility.Visible;
+                //----------------------------------------------------------------
+                editBtn.Visibility = Microsoft.UI.Xaml.Visibility.Collapsed;
+                delBtn.Visibility = Microsoft.UI.Xaml.Visibility.Collapsed;
+                title.Visibility = Microsoft.UI.Xaml.Visibility.Collapsed;
+                content.Visibility = Microsoft.UI.Xaml.Visibility.Collapsed;
+            }
+
+        }
+
+
     }
 }

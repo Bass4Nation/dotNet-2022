@@ -36,10 +36,10 @@
                 Margin="{StaticResource MediumLeftRightMargin}"
                 x:Name="contentPanel">
                 <RelativePanel>
-                    <Grid x:ConnectionId='5'
+                    <Grid x:ConnectionId='12'
                         x:Name="itemHero"
-                        Width="200"
-                        Height="200"
+                        Width="0"
+                        Height="0"
                         Margin="{StaticResource SmallRightMargin}"
                         Padding="{StaticResource XSmallLeftTopRightBottomMargin}"
                         HorizontalAlignment="Left"
@@ -47,65 +47,59 @@
                         Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}"
                         RelativePanel.AlignTopWithPanel="True"
                         RelativePanel.AlignLeftWithPanel="True">
-                        <!--<FontIcon
-                            HorizontalAlignment="Center"
-                            VerticalAlignment="Center"
-                            FontSize="70"
-                            Glyph="{x:Bind ViewModel.Item.Symbol}"
-                            AutomationProperties.Name="{x:Bind ViewModel.Item.SymbolName}" />-->
                     </Grid>
+                    <Button x:ConnectionId='13'  x:Name="editBtn" Margin="10"  RelativePanel.RightOf="itemHero" Content="Edit Text"                       Visibility="Visible"/>
+                    <Button x:ConnectionId='14'  x:Name="delBtn" Margin="10" RelativePanel.RightOf="editBtn" Content="Delete Document"                      Visibility="Visible"/>
 
-                    <TextBlock x:ConnectionId='6'
+
+                </RelativePanel>
+                <TextBlock x:ConnectionId='4'
                         x:Name="title"
                         Margin="{StaticResource XXSmallTopMargin}"
                         RelativePanel.AlignTopWithPanel="True"
-                        RelativePanel.RightOf="itemHero"
+                        RelativePanel.Below="editBtn"
                         Style="{ThemeResource TitleTextBlockStyle}"
-                                                                          />
+                                                                          
+                        Visibility="Visible"/>
 
-                    <!--<StackPanel x:Name="propertiesGroup1" RelativePanel.Below="itemHero">
-                        <StackPanel x:Name="statusGroup" Margin="{StaticResource SmallTopMargin}">
-                            <TextBlock Style="{ThemeResource SubtitleTextBlockStyle}" Text="Status" />
-                            <TextBlock Style="{ThemeResource BodyTextBlockStyle}" Text="{x:Bind ViewModel.Item.Status}" />
-                        </StackPanel>
-
-                        <StackPanel x:Name="orderDateGroup" Margin="{StaticResource SmallTopMargin}">
-                            <TextBlock Style="{ThemeResource SubtitleTextBlockStyle}" Text="Order date" />
-                            <TextBlock Style="{ThemeResource BodyTextBlockStyle}" Text="{x:Bind ViewModel.Item.OrderDate}" />
-                        </StackPanel>
-                    </StackPanel>
-
-                    <StackPanel x:Name="propertiesGroup2" RelativePanel.Below="propertiesGroup1">
-                        <StackPanel x:Name="shipToGroup" Margin="{StaticResource SmallTopMargin}">
-                            <TextBlock Style="{ThemeResource SubtitleTextBlockStyle}" Text="Ship to" />
-                            <TextBlock Style="{ThemeResource BodyTextBlockStyle}" Text="{x:Bind ViewModel.Item.ShipTo}" />
-                        </StackPanel>
-
-                        <StackPanel x:Name="orderTotalGroup" Margin="{StaticResource SmallTopMargin}">
-                            <TextBlock Style="{ThemeResource SubtitleTextBlockStyle}" Text="Order total" />
-                            <TextBlock Style="{ThemeResource BodyTextBlockStyle}" Text="{x:Bind ViewModel.Item.OrderTotal}" />
-                        </StackPanel>
-                    </StackPanel>-->
-
-                </RelativePanel>
-
-                <TextBlock
-                    Margin="{StaticResource SmallTopMargin}"
-                    Style="{ThemeResource SubtitleTextBlockStyle}"
-                    Text="Note 1" />
-                <TextBlock x:ConnectionId='4'
+                <TextBlock x:ConnectionId='5'
+                    x:Name="content"
                     Style="{ThemeResource BodyTextBlockStyle}" 
-                                                          />
-                <!--<TextBlock
-                    Margin="{StaticResource SmallTopMargin}"
-                    Style="{ThemeResource SubtitleTextBlockStyle}"
-                    Text="Note 2" />
-                <TextBlock
-                    Margin="{StaticResource MediumBottomMargin}"
-                    Style="{ThemeResource BodyTextBlockStyle}"
-                    Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis hendrerit nulla, vel molestie libero. In nec ultricies magna, ultricies molestie ipsum. Mauris non dignissim velit. Etiam malesuada blandit mauris eu maximus. Quisque ornare, felis nec scelerisque mollis, risus dolor posuere magna, in gravida quam mi id nisi. Nullam mattis consequat ex. Cras nulla neque, dictum ac urna et, vestibulum feugiat ex. Pellentesque malesuada accumsan ligula, vel fringilla lacus facilisis sit amet. Proin convallis tempor arcu, ac placerat libero pretium ut. Praesent hendrerit nisl at lobortis viverra. Fusce vitae velit odio. Nam ut tortor sed purus finibus sollicitudin quis at ante. Ut sodales dolor vel eros mollis suscipit. Donec eu nulla id urna ultricies consequat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;" />-->
+                                                          
+                    Visibility="Visible"/>
+                
+                <!-- Hidden until edit button pressed -->
+                <TextBlock x:ConnectionId='6' Text="Title"
+                           Name="editTitle"
+                           Visibility="Collapsed"/>
+                <TextBox x:ConnectionId='7'                                     
+                         TextWrapping="Wrap"
+                         x:Name="TitleField"
+                         Visibility="Collapsed"/>
+                
+                <TextBlock x:ConnectionId='8' Text="Content"
+                           x:Name="editContent"
+                           Visibility="Collapsed"/>
+                <TextBox x:ConnectionId='9'                                       
+                         TextWrapping="Wrap"
+                         x:Name="ContentField"
+                         Visibility="Collapsed"/>
+                <Button x:ConnectionId='10'  x:Name="svBtn" 
+                         Margin="10"
+                         Content="Save Document" 
+                         Visibility="Collapsed"
+                                            
+                         />
+                <Button x:ConnectionId='11'  x:Name="retBtn" 
+                         Margin="10"
+                         Content="Return to document" 
+                         Visibility="Collapsed"
+                                             
+                         />
+
             </StackPanel>
         </ScrollViewer>
     </Grid>
+    
 </Page>
 

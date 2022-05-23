@@ -21,17 +21,18 @@
             ItemClickCommand="{x:Bind ViewModel.ItemClickCommand}"
             ItemsSource="{x:Bind ViewModel.Source,Mode=OneWay}"
             SelectionMode="None"
+            x:Name="docItems"
+            Visibility="Visible"
             StretchContentForSingleRow="False">
+           
             <controls:AdaptiveGridView.ItemTemplate>
                 <DataTemplate x:DataType="models:Doc">
                     <Grid
                         x:Name="itemThumbnail"
                         Padding="{StaticResource XSmallLeftTopRightBottomMargin}"
-                        Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}">
+                        Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}"
+                        Visibility="Visible">
                         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-                            <!--<FontIcon
-                                Glyph="{x:Bind Symbol}"
-                                AutomationProperties.Name="{x:Bind SymbolName}" />-->
                             <TextBlock
                                 Margin="{StaticResource XXSmallTopMargin}"
                                 HorizontalAlignment="Center"
@@ -42,5 +43,60 @@
                 </DataTemplate>
             </controls:AdaptiveGridView.ItemTemplate>
         </controls:AdaptiveGridView>
+        <Button Content="New Document"
+                x:Name="newDocBtn"
+                Visibility="Visible"
+                Margin="10"
+                Click="newDocBtn_Click"
+                />
+        <!-- Hidden until edit button pressed -->
+        <RelativePanel 
+            Margin="50">
+
+            <TextBlock Text="Title"   
+                           Name="editTitle"
+                           Visibility="Collapsed"
+                       Margin="10"/>
+            <TextBox
+                RelativePanel.Below="editTitle"
+                TextWrapping="Wrap"
+                x:Name="TitleField"
+                Visibility="Collapsed"
+                PlaceholderText="Write a Title"
+                Width="200"
+                Margin="10"/>
+
+            <TextBlock Text="Content"
+                       RelativePanel.Below="TitleField"
+                       x:Name="editContent"
+                       Visibility="Collapsed"
+                       Margin="10"/>
+            <TextBox 
+                RelativePanel.Below="editContent"
+                TextWrapping="Wrap"
+                x:Name="ContentField"
+                PlaceholderText="Write a lot of text here"
+                Visibility="Collapsed"
+                Width="400"
+                Margin="10"/>
+            <Button  x:Name="svBtn" 
+                     RelativePanel.Below="ContentField"
+                     Margin="10"
+                     Content="Save Document" 
+                     Visibility="Collapsed"
+                     Click="svBtn_Click"
+                         />
+            <Button  x:Name="retBtn" 
+                     RelativePanel.Below="svBtn"
+                     Margin="10"
+                     Content="Return" 
+                     Visibility="Collapsed"
+                     Click="retBtn_Click"
+                         />
+
+        </RelativePanel>
+
+
     </Grid>
+    
 </Page>

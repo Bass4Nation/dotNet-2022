@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 using RF2022.Core.Contracts.Services;
 using RF2022.Core.Models;
+using RF2022.Core.Helpers;
 
 namespace RF2022.Core.Services
 {
@@ -18,31 +19,38 @@ namespace RF2022.Core.Services
     public class DocService : IDocDataService
     {
         private List<Doc> _allOrders;
+        private Helper helper = new Helper();
+
 
         public DocService()
         {
         }
 
-        private static IEnumerable<Doc> AllOrders()
+        private  IEnumerable<Doc> AllOrders()
         {
             // The following is order summary data
-            var companies = AllCompanies();
-            return companies;
+            var docRepo = DocRepo();
+            foreach (var doc in docRepo)
+            {
+                helper.PostDBDataAsync((int) doc.Id, doc.Title, doc.Content);
+            }
+
+            return docRepo;
         }
 
-        private static IEnumerable<Doc> AllCompanies()
+        private static IEnumerable<Doc> DocRepo()
         {
             return new List<Doc>()
             {
                 new Doc()
                 {
-                    Id = 99,
+                    Id = 1,
                     Title = "Company A",
                     Content = "Maria Andhbadhadhsajabsobasjlcbasljbcaljsbcljasbcljasbjlcasbjlcbasjlers"
                 },
                 new Doc()
                 {
-                    Id = 98,
+                    Id = 2,
                     Title = "Company B",
                     Content = "HAHAH"
                 }
@@ -53,7 +61,7 @@ namespace RF2022.Core.Services
         {
             if (_allOrders == null)
             {
-                _allOrders = new List<Doc>(AllOrders());
+                _allOrders = await helper.GetAllDBDataAsync();
             }
 
             await Task.CompletedTask;

@@ -46,6 +46,10 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -119,19 +123,19 @@
           "dependencies": {
             "CommunityToolkit.Mvvm": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.1.2, )"
             },
             "CommunityToolkit.WinUI.UI.Animations": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.1.2, )"
             },
             "CommunityToolkit.WinUI.UI.Controls": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.1.2, )"
             },
             "CommunityToolkit.WinUI.UI.Controls.DataGrid": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.1.2, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
