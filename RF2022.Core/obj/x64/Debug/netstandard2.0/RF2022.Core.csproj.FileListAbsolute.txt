@@ -1,0 +1,10 @@
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022.Core\bin\x64\Debug\netstandard2.0\RF2022.Core.deps.json
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022.Core\bin\x64\Debug\netstandard2.0\RF2022.Core.dll
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022.Core\bin\x64\Debug\netstandard2.0\RF2022.Core.pdb
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022.Core\obj\x64\Debug\netstandard2.0\RF2022.Core.csproj.AssemblyReference.cache
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022.Core\obj\x64\Debug\netstandard2.0\RF2022.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022.Core\obj\x64\Debug\netstandard2.0\RF2022.Core.AssemblyInfoInputs.cache
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022.Core\obj\x64\Debug\netstandard2.0\RF2022.Core.AssemblyInfo.cs
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022.Core\obj\x64\Debug\netstandard2.0\RF2022.Core.csproj.CoreCompileInputs.cache
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022.Core\obj\x64\Debug\netstandard2.0\RF2022.Core.dll
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022.Core\obj\x64\Debug\netstandard2.0\RF2022.Core.pdb

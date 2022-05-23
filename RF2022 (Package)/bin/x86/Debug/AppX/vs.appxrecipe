@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RF2022 %28Package%29\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-05-23T15:40:20.366</Modified>
+      <Modified>2022-05-23T16:46:54.889</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
