@@ -29,13 +29,13 @@ namespace RandomFacts.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
             services.AddControllers();
 
+
             services.AddDbContext<DocContext>(opt =>
-                opt.UseInMemoryDatabase("FactList"));
-            services.AddDbContext<FactContext>(opt =>
                 opt.UseInMemoryDatabase("DocList"));
+            services.AddDbContext<FactContext>(opt =>
+                opt.UseInMemoryDatabase("FactList"));
 
 
             services.AddSwaggerGen(c =>

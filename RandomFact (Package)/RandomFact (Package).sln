@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.32407.337
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomFacts.Api", "..\RandomFacts.Api\RandomFacts.Api.csproj", "{DE309949-C6F4-4CA0-B8C5-3CC5E675C881}"
 EndProject
-Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "RandomFact (Package)", "..\RandomFact (Package)\RandomFact (Package).wapproj", "{385A4722-9A7C-448D-969F-629E74CEC5B9}"
+Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "RandomFact (Package)", "RandomFact (Package).wapproj", "{385A4722-9A7C-448D-969F-629E74CEC5B9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomFact", "..\RandomFact\RandomFact.csproj", "{A222FAE1-5B1B-492D-8142-EC366189E0CF}"
 EndProject

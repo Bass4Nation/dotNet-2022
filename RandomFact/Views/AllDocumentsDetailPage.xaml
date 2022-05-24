@@ -50,8 +50,6 @@
                     </Grid>
                     <Button  x:Name="editBtn" Margin="10"  RelativePanel.RightOf="itemHero" Content="Edit Text" Click="editBtn_Click" Visibility="Visible"/>
                     <Button  x:Name="delBtn" Margin="10" RelativePanel.RightOf="editBtn" Content="Delete Document" Click="delBtn_Click" Visibility="Visible"/>
-
-
                 </RelativePanel>
                 <TextBlock
                         x:Name="title"
@@ -59,13 +57,13 @@
                         RelativePanel.AlignTopWithPanel="True"
                         RelativePanel.Below="editBtn"
                         Style="{ThemeResource TitleTextBlockStyle}"
-                        Text="{x:Bind ViewModel.Item.Title, Mode=OneWay}" 
+                        Text="{x:Bind ViewModel.Item.Title, Mode=TwoWay}" 
                         Visibility="Visible"/>
 
                 <TextBlock
                     x:Name="content"
                     Style="{ThemeResource BodyTextBlockStyle}" 
-                    Text="{x:Bind ViewModel.Item.Content}"
+                    Text="{x:Bind ViewModel.Item.Content, Mode=TwoWay}"
                     Visibility="Visible"/>
 
                 <!-- Hidden until edit button pressed -->

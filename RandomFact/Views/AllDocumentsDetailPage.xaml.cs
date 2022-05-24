@@ -3,6 +3,8 @@ using CommunityToolkit.WinUI.UI.Animations;
 
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Navigation;
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
 
 using RandomFact.Contracts.Services;
 using RandomFact.ViewModels;

@@ -26,7 +26,14 @@ namespace RandomFacts.Api.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Doc>>> GetDocItems()
         {
-            
+            //GetTest(_context.DocItems);
+            List<Doc> list = GetDocDbDonau();
+            foreach (Doc doc in list)
+            {
+                Debug.WriteLine(doc.Id);
+                //_context.DocItems.Add(doc);
+            }
+            //await _context.SaveChangesAsync();
             return await _context.DocItems.ToListAsync();
         }
 
@@ -54,7 +61,7 @@ namespace RandomFacts.Api.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutDoc(int id, Doc doc)
         {
-            string command = "update dbo.Documents set dbo.Documents.Title = '"+ doc.Title + "', dbo.Documents.Text = '"+ doc.Content + "' where dbo.Documents.id = "+ doc.Id;
+            string command = "update dbo.Documents set dbo.Documents.Title = '" + doc.Title + "', dbo.Documents.Text = '" + doc.Content + "' where dbo.Documents.id = " + doc.Id;
             CommandDocDbDonau(command);
             if (id != doc.Id)
             {
@@ -100,7 +107,7 @@ namespace RandomFacts.Api.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteDoc(int id)
         {
-            string command = "delete from dbo.Documents WHERE dbo.Documents.Id = "+ id +";";
+            string command = "delete from dbo.Documents WHERE dbo.Documents.Id = " + id + ";";
             CommandDocDbDonau(command);
             var doc = await _context.DocItems.FindAsync(id);
             if (doc == null)
@@ -169,6 +176,13 @@ namespace RandomFacts.Api.Controllers
             }
             return arr;
         }
+
+        //public async Task<ActionResult<IEnumerable<Doc>>> GetDocItems()
+        //{
+
+        //    return await _context.DocItems.ToListAsync();
+        //}
+
         private void CommandDocDbDonau(string command)
         {
 

@@ -22,10 +22,12 @@
     <Import Project="$(NuGetPackageRoot)microsoft.projectreunion.foundation\0.8.0\build\Microsoft.ProjectReunion.Foundation.props" Condition="Exists('$(NuGetPackageRoot)microsoft.projectreunion.foundation\0.8.0\build\Microsoft.ProjectReunion.Foundation.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.projectreunion.dwrite\0.8.0\build\Microsoft.ProjectReunion.DWrite.props" Condition="Exists('$(NuGetPackageRoot)microsoft.projectreunion.dwrite\0.8.0\build\Microsoft.ProjectReunion.DWrite.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.projectreunion\0.8.0\build\Microsoft.ProjectReunion.props" Condition="Exists('$(NuGetPackageRoot)microsoft.projectreunion\0.8.0\build\Microsoft.ProjectReunion.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore.design\5.0.0\build\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore.design\5.0.0\build\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_ProjectReunion_WinUI Condition=" '$(PkgMicrosoft_ProjectReunion_WinUI)' == '' ">C:\Users\Bass4Nation\.nuget\packages\microsoft.projectreunion.winui\0.8.0</PkgMicrosoft_ProjectReunion_WinUI>
     <PkgMicrosoft_ProjectReunion Condition=" '$(PkgMicrosoft_ProjectReunion)' == '' ">C:\Users\Bass4Nation\.nuget\packages\microsoft.projectreunion\0.8.0</PkgMicrosoft_ProjectReunion>
+    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\Bass4Nation\.nuget\packages\microsoft.entityframeworkcore.tools\5.0.0</PkgMicrosoft_EntityFrameworkCore_Tools>
     <PkgCommunityToolkit_WinUI_UI_Controls_Primitives Condition=" '$(PkgCommunityToolkit_WinUI_UI_Controls_Primitives)' == '' ">C:\Users\Bass4Nation\.nuget\packages\communitytoolkit.winui.ui.controls.primitives\7.0.3</PkgCommunityToolkit_WinUI_UI_Controls_Primitives>
     <PkgCommunityToolkit_WinUI_UI_Controls_Media Condition=" '$(PkgCommunityToolkit_WinUI_UI_Controls_Media)' == '' ">C:\Users\Bass4Nation\.nuget\packages\communitytoolkit.winui.ui.controls.media\7.0.3</PkgCommunityToolkit_WinUI_UI_Controls_Media>
     <PkgCommunityToolkit_WinUI_UI_Controls_Core Condition=" '$(PkgCommunityToolkit_WinUI_UI_Controls_Core)' == '' ">C:\Users\Bass4Nation\.nuget\packages\communitytoolkit.winui.ui.controls.core\7.0.3</PkgCommunityToolkit_WinUI_UI_Controls_Core>
