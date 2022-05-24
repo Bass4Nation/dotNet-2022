@@ -1,0 +1,10 @@
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact.Core\bin\Debug\netstandard2.0\RandomFact.Core.deps.json
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact.Core\bin\Debug\netstandard2.0\RandomFact.Core.dll
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact.Core\bin\Debug\netstandard2.0\RandomFact.Core.pdb
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact.Core\obj\Debug\netstandard2.0\RandomFact.Core.csproj.AssemblyReference.cache
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact.Core\obj\Debug\netstandard2.0\RandomFact.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact.Core\obj\Debug\netstandard2.0\RandomFact.Core.AssemblyInfoInputs.cache
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact.Core\obj\Debug\netstandard2.0\RandomFact.Core.AssemblyInfo.cs
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact.Core\obj\Debug\netstandard2.0\RandomFact.Core.csproj.CoreCompileInputs.cache
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact.Core\obj\Debug\netstandard2.0\RandomFact.Core.dll
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact.Core\obj\Debug\netstandard2.0\RandomFact.Core.pdb
