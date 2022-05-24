@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using RandomFacts.Api.Models;
 
@@ -24,7 +26,7 @@ namespace RandomFacts.Api.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Doc>>> GetDocItems()
         {
-
+            
             return await _context.DocItems.ToListAsync();
         }
 
@@ -52,6 +54,8 @@ namespace RandomFacts.Api.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutDoc(int id, Doc doc)
         {
+            string command = "update dbo.Documents set dbo.Documents.Title = '"+ doc.Title + "', dbo.Documents.Text = '"+ doc.Content + "' where dbo.Documents.id = "+ doc.Id;
+            CommandDocDbDonau(command);
             if (id != doc.Id)
             {
                 return BadRequest();
@@ -83,6 +87,9 @@ namespace RandomFacts.Api.Controllers
         [HttpPost]
         public async Task<ActionResult<Doc>> PostDoc(Doc doc)
         {
+            string command = "insert into dbo.Documents (dbo.Documents.id, dbo.Documents.Title, dbo.Documents.Text) values(" + doc.Id + ", '" + doc.Title + "', '" + doc.Content + "');";
+
+            CommandDocDbDonau(command);
             _context.DocItems.Add(doc);
             await _context.SaveChangesAsync();
 
@@ -93,6 +100,8 @@ namespace RandomFacts.Api.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteDoc(int id)
         {
+            string command = "delete from dbo.Documents WHERE dbo.Documents.Id = "+ id +";";
+            CommandDocDbDonau(command);
             var doc = await _context.DocItems.FindAsync(id);
             if (doc == null)
             {
@@ -109,5 +118,92 @@ namespace RandomFacts.Api.Controllers
         {
             return _context.DocItems.Any(e => e.Id == id);
         }
+
+        private List<Doc> GetDocDbDonau()
+        {
+            string command = "select dbo.Documents.id, dbo.Documents.Title, dbo.Documents.Text from dbo.Documents";
+            List<Doc> arr = new List<Doc>();
+            try
+            {
+
+                SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder
+                {
+                    DataSource = @"donau.hiof.no",
+                    InitialCatalog = "kristoss",
+                    IntegratedSecurity = false,
+                    UserID = "kristoss",
+                    Password = "Z1E3Q5qVbj"
+                };
+
+                using (SqlConnection conn = new SqlConnection(builder.ToString()))
+                {
+                    conn.Open();
+                    if (conn.State == System.Data.ConnectionState.Open)
+                    {
+                        using (SqlCommand cmd = conn.CreateCommand())
+                        {
+                            cmd.CommandText = command;
+                            using (SqlDataReader reader = cmd.ExecuteReader())
+                            {
+                                while (reader.Read())
+                                {
+                                    arr.Add(new Doc { Id = reader.GetInt32(0), Title = reader.GetString(1), Content = reader.GetString(2) });
+                                    //for (int i = 0; i < returnValues; i++)
+                                    //{
+
+                                    //    arr.Add(new Doc { }reader.GetString(i));
+                                    //}
+                                }
+                            }
+                        }
+                    }
+                }
+
+
+
+            }
+            catch (Exception e)
+            {
+                Debug.WriteLine(e);
+                throw;
+            }
+            return arr;
+        }
+        private void CommandDocDbDonau(string command)
+        {
+
+            Debug.WriteLine(command);
+            try
+            {
+
+                SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder
+                {
+                    DataSource = @"donau.hiof.no",
+                    InitialCatalog = "kristoss",
+                    IntegratedSecurity = false,
+                    UserID = "kristoss",
+                    Password = "Z1E3Q5qVbj"
+                };
+
+                using (SqlConnection conn = new SqlConnection(builder.ToString()))
+                {
+                    conn.Open();
+                    if (conn.State == System.Data.ConnectionState.Open)
+                    {
+                        using (SqlCommand cmd = conn.CreateCommand())
+                        {
+                            cmd.CommandText = command;
+                            SqlDataReader reader = cmd.ExecuteReader();
+                        }
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Debug.WriteLine(e);
+                throw;
+            }
+        }
+
     }
 }
