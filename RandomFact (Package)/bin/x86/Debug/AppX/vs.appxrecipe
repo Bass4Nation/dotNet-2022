@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact %28Package%29\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-05-24T12:59:06.104</Modified>
+      <Modified>2022-05-24T21:38:37.087</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -40,31 +40,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact\bin\x86\Debug\net5.0-windows10.0.19041.0\Styles\Page.xbf">
       <PackagePath>Styles\Page.xbf</PackagePath>
-      <Modified>2022-05-24T12:59:04.060</Modified>
+      <Modified>2022-05-24T18:23:52.067</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact\bin\x86\Debug\net5.0-windows10.0.19041.0\Styles\TextBlock.xbf">
       <PackagePath>Styles\TextBlock.xbf</PackagePath>
-      <Modified>2022-05-24T12:59:04.061</Modified>
+      <Modified>2022-05-24T18:23:52.067</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact\bin\x86\Debug\net5.0-windows10.0.19041.0\Styles\_FontSizes.xbf">
       <PackagePath>Styles\_FontSizes.xbf</PackagePath>
-      <Modified>2022-05-24T12:59:04.061</Modified>
+      <Modified>2022-05-24T18:23:52.067</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact\bin\x86\Debug\net5.0-windows10.0.19041.0\Styles\_Thickness.xbf">
       <PackagePath>Styles\_Thickness.xbf</PackagePath>
-      <Modified>2022-05-24T12:59:04.061</Modified>
+      <Modified>2022-05-24T18:23:52.067</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact\bin\x86\Debug\net5.0-windows10.0.19041.0\Views\AllDocumentsDetailPage.xbf">
       <PackagePath>Views\AllDocumentsDetailPage.xbf</PackagePath>
-      <Modified>2022-05-24T12:59:04.061</Modified>
+      <Modified>2022-05-24T16:05:33.350</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact\bin\x86\Debug\net5.0-windows10.0.19041.0\Views\AllDocumentsPage.xbf">
       <PackagePath>Views\AllDocumentsPage.xbf</PackagePath>
-      <Modified>2022-05-24T09:29:19.369</Modified>
+      <Modified>2022-05-24T18:23:52.068</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact\bin\x86\Debug\net5.0-windows10.0.19041.0\Views\RandomFactDetailControl.xbf">
       <PackagePath>Views\RandomFactDetailControl.xbf</PackagePath>
-      <Modified>2022-05-24T09:29:19.370</Modified>
+      <Modified>2022-05-24T17:50:54.228</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact\bin\x86\Debug\net5.0-windows10.0.19041.0\Views\RandomFactPage.xbf">
       <PackagePath>Views\RandomFactPage.xbf</PackagePath>
@@ -72,7 +72,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact\bin\x86\Debug\net5.0-windows10.0.19041.0\Views\ShellPage.xbf">
       <PackagePath>Views\ShellPage.xbf</PackagePath>
-      <Modified>2022-05-24T09:29:19.370</Modified>
+      <Modified>2022-05-24T16:05:33.350</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\Redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -118,7 +118,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact %28Package%29\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-05-24T08:56:15.708</Modified>
+      <Modified>2022-05-24T16:05:37.752</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\.nuget\packages\colorcode.core\2.0.9\lib\netstandard1.4\ColorCode.Core.dll">
       <PackagePath>RandomFact\ColorCode.Core.dll</PackagePath>
@@ -176,6 +176,38 @@
       <PackagePath>RandomFact\CommunityToolkit.WinUI.UI.Controls.Primitives.dll</PackagePath>
       <Modified>2021-06-25T00:28:22.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bass4Nation\.nuget\packages\humanizer.core\2.8.26\lib\netstandard2.0\Humanizer.dll">
+      <PackagePath>RandomFact\Humanizer.dll</PackagePath>
+      <Modified>2020-06-02T13:07:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bass4Nation\.nuget\packages\microsoft.entityframeworkcore\5.0.0\lib\netstandard2.1\Microsoft.EntityFrameworkCore.dll">
+      <PackagePath>RandomFact\Microsoft.EntityFrameworkCore.dll</PackagePath>
+      <Modified>2020-10-24T06:40:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bass4Nation\.nuget\packages\microsoft.entityframeworkcore.abstractions\5.0.0\lib\netstandard2.1\Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <PackagePath>RandomFact\Microsoft.EntityFrameworkCore.Abstractions.dll</PackagePath>
+      <Modified>2020-10-24T06:39:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bass4Nation\.nuget\packages\microsoft.entityframeworkcore.design\5.0.0\lib\netstandard2.1\Microsoft.EntityFrameworkCore.Design.dll">
+      <PackagePath>RandomFact\Microsoft.EntityFrameworkCore.Design.dll</PackagePath>
+      <Modified>2020-10-24T06:40:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bass4Nation\.nuget\packages\microsoft.entityframeworkcore.relational\5.0.0\lib\netstandard2.1\Microsoft.EntityFrameworkCore.Relational.dll">
+      <PackagePath>RandomFact\Microsoft.EntityFrameworkCore.Relational.dll</PackagePath>
+      <Modified>2020-10-24T06:40:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bass4Nation\.nuget\packages\microsoft.extensions.caching.abstractions\5.0.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Abstractions.dll">
+      <PackagePath>RandomFact\Microsoft.Extensions.Caching.Abstractions.dll</PackagePath>
+      <Modified>2020-10-19T18:48:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bass4Nation\.nuget\packages\microsoft.extensions.caching.memory\5.0.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Memory.dll">
+      <PackagePath>RandomFact\Microsoft.Extensions.Caching.Memory.dll</PackagePath>
+      <Modified>2020-10-19T18:48:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bass4Nation\.nuget\packages\microsoft.extensions.configuration.abstractions\5.0.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll">
+      <PackagePath>RandomFact\Microsoft.Extensions.Configuration.Abstractions.dll</PackagePath>
+      <Modified>2020-10-19T18:48:28.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\.nuget\packages\microsoft.extensions.dependencyinjection\5.0.1\lib\net5.0\Microsoft.Extensions.DependencyInjection.dll">
       <PackagePath>RandomFact\Microsoft.Extensions.DependencyInjection.dll</PackagePath>
       <Modified>2020-11-26T01:59:12.000</Modified>
@@ -183,6 +215,22 @@
     <AppxPackagedFile Include="C:\Users\Bass4Nation\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\5.0.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
       <PackagePath>RandomFact\Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
       <Modified>2020-10-19T18:48:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bass4Nation\.nuget\packages\microsoft.extensions.logging\5.0.0\lib\netstandard2.1\Microsoft.Extensions.Logging.dll">
+      <PackagePath>RandomFact\Microsoft.Extensions.Logging.dll</PackagePath>
+      <Modified>2020-10-19T18:53:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bass4Nation\.nuget\packages\microsoft.extensions.logging.abstractions\5.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll">
+      <PackagePath>RandomFact\Microsoft.Extensions.Logging.Abstractions.dll</PackagePath>
+      <Modified>2020-10-19T18:48:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bass4Nation\.nuget\packages\microsoft.extensions.options\5.0.0\lib\net5.0\Microsoft.Extensions.Options.dll">
+      <PackagePath>RandomFact\Microsoft.Extensions.Options.dll</PackagePath>
+      <Modified>2020-10-19T18:48:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bass4Nation\.nuget\packages\microsoft.extensions.primitives\5.0.0\lib\netcoreapp3.0\Microsoft.Extensions.Primitives.dll">
+      <PackagePath>RandomFact\Microsoft.Extensions.Primitives.dll</PackagePath>
+      <Modified>2020-10-19T18:48:36.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\.nuget\packages\microsoft.graphics.win2d\0.8.0.21\lib\net5.0-windows10.0.18362.0\Microsoft.Graphics.Canvas.Interop.dll">
       <PackagePath>RandomFact\Microsoft.Graphics.Canvas.Interop.dll</PackagePath>
@@ -234,15 +282,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact.Core\bin\x86\Debug\netstandard2.0\RandomFact.Core.dll">
       <PackagePath>RandomFact\RandomFact.Core.dll</PackagePath>
-      <Modified>2022-05-24T08:04:53.743</Modified>
+      <Modified>2022-05-24T21:38:33.170</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact\bin\x86\Debug\net5.0-windows10.0.19041.0\RandomFact.deps.json">
       <PackagePath>RandomFact\RandomFact.deps.json</PackagePath>
-      <Modified>2022-05-24T07:46:06.218</Modified>
+      <Modified>2022-05-24T16:05:34.493</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact\bin\x86\Debug\net5.0-windows10.0.19041.0\RandomFact.runtimeconfig.dev.json">
       <PackagePath>RandomFact\RandomFact.runtimeconfig.dev.json</PackagePath>
-      <Modified>2022-05-24T07:46:06.246</Modified>
+      <Modified>2022-05-24T16:05:34.530</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact\obj\x86\Debug\net5.0-windows10.0.19041.0\App.xbf">
       <PackagePath>RandomFact\App.xbf</PackagePath>
@@ -250,31 +298,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact\obj\x86\Debug\net5.0-windows10.0.19041.0\Styles\Page.xbf">
       <PackagePath>RandomFact\Styles\Page.xbf</PackagePath>
-      <Modified>2022-05-24T12:59:04.060</Modified>
+      <Modified>2022-05-24T18:23:52.067</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact\obj\x86\Debug\net5.0-windows10.0.19041.0\Styles\TextBlock.xbf">
       <PackagePath>RandomFact\Styles\TextBlock.xbf</PackagePath>
-      <Modified>2022-05-24T12:59:04.061</Modified>
+      <Modified>2022-05-24T18:23:52.067</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact\obj\x86\Debug\net5.0-windows10.0.19041.0\Styles\_FontSizes.xbf">
       <PackagePath>RandomFact\Styles\_FontSizes.xbf</PackagePath>
-      <Modified>2022-05-24T12:59:04.061</Modified>
+      <Modified>2022-05-24T18:23:52.067</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact\obj\x86\Debug\net5.0-windows10.0.19041.0\Styles\_Thickness.xbf">
       <PackagePath>RandomFact\Styles\_Thickness.xbf</PackagePath>
-      <Modified>2022-05-24T12:59:04.061</Modified>
+      <Modified>2022-05-24T18:23:52.067</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact\obj\x86\Debug\net5.0-windows10.0.19041.0\Views\AllDocumentsDetailPage.xbf">
       <PackagePath>RandomFact\Views\AllDocumentsDetailPage.xbf</PackagePath>
-      <Modified>2022-05-24T12:59:04.061</Modified>
+      <Modified>2022-05-24T16:05:33.350</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact\obj\x86\Debug\net5.0-windows10.0.19041.0\Views\AllDocumentsPage.xbf">
       <PackagePath>RandomFact\Views\AllDocumentsPage.xbf</PackagePath>
-      <Modified>2022-05-24T09:29:19.369</Modified>
+      <Modified>2022-05-24T18:23:52.068</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact\obj\x86\Debug\net5.0-windows10.0.19041.0\Views\RandomFactDetailControl.xbf">
       <PackagePath>RandomFact\Views\RandomFactDetailControl.xbf</PackagePath>
-      <Modified>2022-05-24T09:29:19.370</Modified>
+      <Modified>2022-05-24T17:50:54.228</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact\obj\x86\Debug\net5.0-windows10.0.19041.0\Views\RandomFactPage.xbf">
       <PackagePath>RandomFact\Views\RandomFactPage.xbf</PackagePath>
@@ -282,19 +330,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact\obj\x86\Debug\net5.0-windows10.0.19041.0\Views\ShellPage.xbf">
       <PackagePath>RandomFact\Views\ShellPage.xbf</PackagePath>
-      <Modified>2022-05-24T09:29:19.370</Modified>
+      <Modified>2022-05-24T16:05:33.350</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact\obj\x86\Debug\net5.0-windows10.0.19041.0\apphost.exe">
       <PackagePath>RandomFact\RandomFact.exe</PackagePath>
-      <Modified>2022-05-24T12:59:04.404</Modified>
+      <Modified>2022-05-24T21:38:34.944</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact\bin\x86\Debug\net5.0-windows10.0.19041.0\RandomFact.runtimeconfig.json">
       <PackagePath>RandomFact\RandomFact.runtimeconfig.json</PackagePath>
-      <Modified>2022-05-24T07:46:06.242</Modified>
+      <Modified>2022-05-24T16:05:34.526</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact\bin\x86\Debug\net5.0-windows10.0.19041.0\RandomFact.dll">
       <PackagePath>RandomFact\RandomFact.dll</PackagePath>
-      <Modified>2022-05-24T12:59:04.356</Modified>
+      <Modified>2022-05-24T21:38:34.900</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

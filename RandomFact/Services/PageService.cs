@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-using CommunityToolkit.Mvvm.ComponentModel;
-
+﻿using CommunityToolkit.Mvvm.ComponentModel;
 using Microsoft.UI.Xaml.Controls;
-
 using RandomFact.Contracts.Services;
 using RandomFact.ViewModels;
 using RandomFact.Views;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace RandomFact.Services
 {

@@ -1,11 +1,9 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using RandomFacts.Api.Models;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using RandomFacts.Api.Models;
 
 namespace RandomFacts.Api.Controllers
 {
@@ -80,7 +78,7 @@ namespace RandomFacts.Api.Controllers
             _context.FactItems.Add(fact);
             await _context.SaveChangesAsync();
 
-            string urlLink = "https://en.wikipedia.org/wiki/"+fact.Title;
+            string urlLink = "https://en.wikipedia.org/wiki/" + fact.Title;
 
             return CreatedAtAction("GetFact", new { id = fact.Id, title = fact.Title, content = fact.Content, url = urlLink }, fact);
         }

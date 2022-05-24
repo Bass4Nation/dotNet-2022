@@ -1,10 +1,8 @@
-﻿using System;
-using System.Threading.Tasks;
-
-using Microsoft.UI.Xaml;
-
+﻿using Microsoft.UI.Xaml;
 using RandomFact.Contracts.Services;
 using RandomFact.ViewModels;
+using System;
+using System.Threading.Tasks;
 
 namespace RandomFact.Activation
 {

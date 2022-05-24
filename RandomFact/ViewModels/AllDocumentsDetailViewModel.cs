@@ -1,11 +1,8 @@
-﻿using System;
-using System.Linq;
-
-using CommunityToolkit.Mvvm.ComponentModel;
-
+﻿using CommunityToolkit.Mvvm.ComponentModel;
 using RandomFact.Contracts.ViewModels;
 using RandomFact.Core.Contracts.Services;
 using RandomFact.Core.Models;
+using System.Linq;
 
 namespace RandomFact.ViewModels
 {

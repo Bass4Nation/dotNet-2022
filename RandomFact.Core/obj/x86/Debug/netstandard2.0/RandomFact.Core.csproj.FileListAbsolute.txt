@@ -7,3 +7,4 @@ C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact.Core\obj\x86\Debug\ne
 C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact.Core\obj\x86\Debug\netstandard2.0\RandomFact.Core.csproj.CoreCompileInputs.cache
 C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact.Core\obj\x86\Debug\netstandard2.0\RandomFact.Core.dll
 C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact.Core\obj\x86\Debug\netstandard2.0\RandomFact.Core.pdb
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact.Core\obj\x86\Debug\netstandard2.0\RandomFact.Core.csproj.AssemblyReference.cache

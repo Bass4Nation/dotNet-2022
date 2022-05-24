@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace RandomFacts.Api.Models
+﻿namespace RandomFacts.Api.Models
 {
     public class Fact
     {

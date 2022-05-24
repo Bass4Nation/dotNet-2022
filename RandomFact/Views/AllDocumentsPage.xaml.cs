@@ -1,15 +1,13 @@
 ﻿using CommunityToolkit.Mvvm.DependencyInjection;
-
 using Microsoft.UI.Xaml.Controls;
-
-using RandomFact.ViewModels;
 using RandomFact.Helpers;
+using RandomFact.ViewModels;
 
 namespace RandomFact.Views
 {
     public sealed partial class AllDocumentsPage : Page
     {
-        private Helper helper = new Helper();
+        private Helper helper = new();
         public AllDocumentsViewModel ViewModel { get; }
 
         public AllDocumentsPage()
@@ -48,8 +46,6 @@ namespace RandomFact.Views
                 //------------------------------------------------------------------
                 newDocBtn.Visibility = Microsoft.UI.Xaml.Visibility.Visible;
                 docItems.Visibility = Microsoft.UI.Xaml.Visibility.Visible;
-                //content.Visibility = Microsoft.UI.Xaml.Visibility.Visible;
-                //title.Visibility = Microsoft.UI.Xaml.Visibility.Visible;
             }
             else
             {
@@ -63,8 +59,6 @@ namespace RandomFact.Views
                 //----------------------------------------------------------------
                 newDocBtn.Visibility = Microsoft.UI.Xaml.Visibility.Collapsed;
                 docItems.Visibility = Microsoft.UI.Xaml.Visibility.Collapsed;
-                //title.Visibility = Microsoft.UI.Xaml.Visibility.Collapsed;
-                //content.Visibility = Microsoft.UI.Xaml.Visibility.Collapsed;
             }
 
         }

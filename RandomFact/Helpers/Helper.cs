@@ -1,13 +1,8 @@
 ﻿using RandomFact.Core.Models;
 
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Data.SqlClient;
-using Newtonsoft.Json;
 using System.Diagnostics;
-using System.IO;
-using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -43,7 +38,7 @@ namespace RandomFact.Helpers
                     else
                     {
                         Debug.WriteLine("Status Error Code : " + response.StatusCode);
-                        
+
                     }
                 }
             }
@@ -121,11 +116,11 @@ namespace RandomFact.Helpers
         public async void PostDBDataAsync(string title, string content)
         {
             int id = GetRandomId();
-            
-            
 
 
-            var doc = new Doc {Id = id, Title = title, Content = content};
+
+
+            var doc = new Doc { Id = id, Title = title, Content = content };
             string docJson = doc.SoloToJson();
             try
             {

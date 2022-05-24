@@ -1,10 +1,9 @@
-﻿using System;
+﻿using RandomFact.Core.Contracts.Services;
+using RandomFact.Core.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
-using RandomFact.Core.Contracts.Services;
-using RandomFact.Core.Models;
 
 namespace RandomFact.Core.Services
 {

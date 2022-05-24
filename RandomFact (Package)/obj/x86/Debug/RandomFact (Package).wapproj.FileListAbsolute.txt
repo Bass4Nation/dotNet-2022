@@ -94,3 +94,15 @@ C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact (Package)\obj\x86\Deb
 C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact (Package)\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact (Package)\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact (Package)\obj\x86\Debug\RandomFact (Package).wapproj.LastBuild.txt
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact (Package)\bin\x86\Debug\RandomFact\Humanizer.dll
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact (Package)\bin\x86\Debug\RandomFact\Microsoft.EntityFrameworkCore.dll
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact (Package)\bin\x86\Debug\RandomFact\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact (Package)\bin\x86\Debug\RandomFact\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact (Package)\bin\x86\Debug\RandomFact\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact (Package)\bin\x86\Debug\RandomFact\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact (Package)\bin\x86\Debug\RandomFact\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact (Package)\bin\x86\Debug\RandomFact\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact (Package)\bin\x86\Debug\RandomFact\Microsoft.Extensions.Logging.dll
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact (Package)\bin\x86\Debug\RandomFact\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact (Package)\bin\x86\Debug\RandomFact\Microsoft.Extensions.Options.dll
+C:\Users\Bass4Nation\Desktop\Github\dotNet-2022\RandomFact (Package)\bin\x86\Debug\RandomFact\Microsoft.Extensions.Primitives.dll

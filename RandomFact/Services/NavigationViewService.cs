@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-using Microsoft.UI.Xaml.Controls;
-
+﻿using Microsoft.UI.Xaml.Controls;
 using RandomFact.Contracts.Services;
 using RandomFact.Helpers;
-using RandomFact.ViewModels;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace RandomFact.Services
 {

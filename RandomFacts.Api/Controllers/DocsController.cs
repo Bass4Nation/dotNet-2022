@@ -1,13 +1,12 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
+using RandomFacts.Api.Models;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Data.SqlClient;
-using Microsoft.EntityFrameworkCore;
-using RandomFacts.Api.Models;
 
 namespace RandomFacts.Api.Controllers
 {
@@ -22,18 +21,21 @@ namespace RandomFacts.Api.Controllers
             _context = context;
         }
 
+
         // GET: api/Docs
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Doc>>> GetDocItems()
         {
+            //Tired to add data to Rest api when startup
             //GetTest(_context.DocItems);
             List<Doc> list = GetDocDbDonau();
             foreach (Doc doc in list)
             {
                 Debug.WriteLine(doc.Id);
+                Debug.WriteLine(doc.Title);
+                Debug.WriteLine(doc.Content);
                 //_context.DocItems.Add(doc);
             }
-            //await _context.SaveChangesAsync();
             return await _context.DocItems.ToListAsync();
         }
 
@@ -155,11 +157,6 @@ namespace RandomFacts.Api.Controllers
                                 while (reader.Read())
                                 {
                                     arr.Add(new Doc { Id = reader.GetInt32(0), Title = reader.GetString(1), Content = reader.GetString(2) });
-                                    //for (int i = 0; i < returnValues; i++)
-                                    //{
-
-                                    //    arr.Add(new Doc { }reader.GetString(i));
-                                    //}
                                 }
                             }
                         }
@@ -176,12 +173,6 @@ namespace RandomFacts.Api.Controllers
             }
             return arr;
         }
-
-        //public async Task<ActionResult<IEnumerable<Doc>>> GetDocItems()
-        //{
-
-        //    return await _context.DocItems.ToListAsync();
-        //}
 
         private void CommandDocDbDonau(string command)
         {

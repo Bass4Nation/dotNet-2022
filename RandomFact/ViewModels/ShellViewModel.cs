@@ -1,11 +1,9 @@
-﻿using System;
-
+﻿
 using CommunityToolkit.Mvvm.ComponentModel;
 
 using Microsoft.UI.Xaml.Navigation;
 
 using RandomFact.Contracts.Services;
-using RandomFact.Views;
 
 namespace RandomFact.ViewModels
 {

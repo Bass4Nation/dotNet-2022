@@ -1,7 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using RandomFact.Core.Models;
+using System.Collections.Generic;
 using System.Threading.Tasks;
-
-using RandomFact.Core.Models;
 
 namespace RandomFact.Core.Contracts.Services
 {

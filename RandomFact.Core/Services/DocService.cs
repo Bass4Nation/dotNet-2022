@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-using RandomFact.Core.Contracts.Services;
-using RandomFact.Core.Models;
+﻿using RandomFact.Core.Contracts.Services;
 using RandomFact.Core.Helpers;
+using RandomFact.Core.Models;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace RandomFact.Core.Services
 {
@@ -26,13 +23,13 @@ namespace RandomFact.Core.Services
         {
         }
 
-        private  IEnumerable<Doc> AllOrders()
+        private IEnumerable<Doc> AllOrders()
         {
             // The following is order summary data
             var docRepo = DocRepo();
             foreach (var doc in docRepo)
             {
-                helper.PostDBDataAsync((int) doc.Id, doc.Title, doc.Content);
+                helper.PostDBDataAsync((int)doc.Id, doc.Title, doc.Content);
             }
 
             return docRepo;
